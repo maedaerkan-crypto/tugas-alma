@@ -164,4 +164,4 @@ if file is not None:
         x_baru = np.array(([1.0] if h["intersep"] else []) + nilai_baru) 
         st.success(f"Prediksi {h['target']} = {float(x_baru @ w):.2f}") 
 else: 
-    st.info("Silakan unggah file CSV/Excel terlebih dahulu 
+    st.info("Silakan unggah file CSV/Excel terlebih dahulu. Contoh: data_rumah.csv")
